@@ -29,5 +29,8 @@
   color: #eeeee4;   
 }
 .grid-item:hover{
-  background-color: rgb(32, 116, 158);
+
+  background: linear-gradient(to left, rgb(32, 116, 158) 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 1s ease-out;
 }
